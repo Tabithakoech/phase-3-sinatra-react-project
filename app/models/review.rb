@@ -1,3 +1,3 @@
 class Review < ActiveRecord::Base
-    # belongs_to :cocktail
+    belongs_to :cocktail
 end
