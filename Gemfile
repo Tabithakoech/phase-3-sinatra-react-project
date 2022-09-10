@@ -33,10 +33,10 @@ gem "sqlite3", "~> 1.4"
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
-#require faker to play with data
+gem 'bcrypt-ruby', '3.0.1'
+
+# Faker Gem for creating random data
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
-#sourcing the cocktails
-gem 'cocktaildb'
 
 # These gems will only be used when we are running the application locally
 group :development do
